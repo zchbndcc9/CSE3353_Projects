@@ -7,13 +7,20 @@ const fs = require('fs');
 var Chance = require('chance');
 var chance = new Chance();
 
+const options = {
+    min: -10,
+    max: 10,
+    fixed: 4
+}
+
 chance.mixin({
     "flight": function(){
         return {
             "flightNumber": 
                 chance.string({ length: 2, alpha: true, casing: 'upper' }) 
                 + chance.pad(chance.integer({ min: 0, max: 9999 }), 4, 0),
-            "coordinates": chance.coordinates({min: -10, max: 10, fixed: 4})
+            "x": chance.floating(options),
+            "y": chance.floating(options)
         };
     }
 })
