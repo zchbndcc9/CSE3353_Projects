@@ -1,0 +1,27 @@
+{
+  "name": "project1",
+  "version": "1.0.0",
+  "description": "Use Closest Pair Problem in order to alert planes if they are on a collision course along a horizontal plane.",
+  "main": "index.js",
+  "scripts": {
+    "initialize": "node initialize_json.js",
+    "test": "echo 'No test specified.'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zchbndcc9/CSE3353_Projects.git/Project1/"
+  },
+  "keywords": [
+    "closest",
+    "pair",
+    "problem",
+    "algorithm",
+    "recursion",
+    "iteration"
+  ],
+  "author": "Zachary Banducci",
+  "license": "ISC",
+  "dependencies": {
+    "chance": "^1.0.13"
+  }
+}
