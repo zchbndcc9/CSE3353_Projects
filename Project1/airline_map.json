@@ -1,0 +1,402 @@
+[
+  {
+    "flightNumber": "DP9845",
+    "coordinates": "4.6173, 0.4206"
+  },
+  {
+    "flightNumber": "VE9931",
+    "coordinates": "8.3182, 7.4613"
+  },
+  {
+    "flightNumber": "YL8991",
+    "coordinates": "0.2314, -2.2269"
+  },
+  {
+    "flightNumber": "KJ9336",
+    "coordinates": "7.8592, -0.9163"
+  },
+  {
+    "flightNumber": "JK5251",
+    "coordinates": "0.8782, -5.8017"
+  },
+  {
+    "flightNumber": "NK0465",
+    "coordinates": "0.2955, 0.3002"
+  },
+  {
+    "flightNumber": "QD3863",
+    "coordinates": "9.6403, 0.4731"
+  },
+  {
+    "flightNumber": "NS8429",
+    "coordinates": "-3.6302, -1.2426"
+  },
+  {
+    "flightNumber": "RD9994",
+    "coordinates": "-2.3857, -3.8083"
+  },
+  {
+    "flightNumber": "JL1436",
+    "coordinates": "-6.5218, -1.1995"
+  },
+  {
+    "flightNumber": "TS1855",
+    "coordinates": "-4.6526, -9.1014"
+  },
+  {
+    "flightNumber": "LX7993",
+    "coordinates": "-9.3415, 5.6224"
+  },
+  {
+    "flightNumber": "CR4008",
+    "coordinates": "-6.9993, -3.626"
+  },
+  {
+    "flightNumber": "VC6498",
+    "coordinates": "1.7902, -5.4444"
+  },
+  {
+    "flightNumber": "HP8330",
+    "coordinates": "6.0689, 9.1086"
+  },
+  {
+    "flightNumber": "YM5907",
+    "coordinates": "7.4576, -4.3461"
+  },
+  {
+    "flightNumber": "ZI7435",
+    "coordinates": "-7.3723, -9.3633"
+  },
+  {
+    "flightNumber": "QR5305",
+    "coordinates": "4.1, -4.014"
+  },
+  {
+    "flightNumber": "CY9697",
+    "coordinates": "-7.312, 8.5071"
+  },
+  {
+    "flightNumber": "WW8532",
+    "coordinates": "5.2897, 5.0575"
+  },
+  {
+    "flightNumber": "WZ2039",
+    "coordinates": "7.6155, 8.0323"
+  },
+  {
+    "flightNumber": "RK6154",
+    "coordinates": "-2.8034, 0.4438"
+  },
+  {
+    "flightNumber": "PH8991",
+    "coordinates": "-4.6946, -9.3924"
+  },
+  {
+    "flightNumber": "NB6206",
+    "coordinates": "-2.0714, -9.4678"
+  },
+  {
+    "flightNumber": "EE3328",
+    "coordinates": "-8.9687, -0.9932"
+  },
+  {
+    "flightNumber": "JN0466",
+    "coordinates": "-5.85, 3.8015"
+  },
+  {
+    "flightNumber": "YE2471",
+    "coordinates": "-4.9822, -9.5892"
+  },
+  {
+    "flightNumber": "XT0440",
+    "coordinates": "4.4516, -9.236"
+  },
+  {
+    "flightNumber": "BC8849",
+    "coordinates": "-6.5452, -3.0069"
+  },
+  {
+    "flightNumber": "UW1963",
+    "coordinates": "-5.065, 8.0378"
+  },
+  {
+    "flightNumber": "MO2221",
+    "coordinates": "-1.4534, -0.4126"
+  },
+  {
+    "flightNumber": "SR3918",
+    "coordinates": "-2.3777, -0.5071"
+  },
+  {
+    "flightNumber": "HV5198",
+    "coordinates": "-4.6829, 5.8771"
+  },
+  {
+    "flightNumber": "TA2086",
+    "coordinates": "4.3895, 3.1617"
+  },
+  {
+    "flightNumber": "CT6404",
+    "coordinates": "1.033, 6.6741"
+  },
+  {
+    "flightNumber": "IJ7452",
+    "coordinates": "2.3425, -6.1508"
+  },
+  {
+    "flightNumber": "CD2935",
+    "coordinates": "-2.3737, -0.8576"
+  },
+  {
+    "flightNumber": "LM6454",
+    "coordinates": "8.2748, 1.0726"
+  },
+  {
+    "flightNumber": "EZ2610",
+    "coordinates": "9.6161, -4.0127"
+  },
+  {
+    "flightNumber": "CE5621",
+    "coordinates": "-7.1276, 3.077"
+  },
+  {
+    "flightNumber": "DX8703",
+    "coordinates": "6.9171, -4.0689"
+  },
+  {
+    "flightNumber": "OI7064",
+    "coordinates": "6.1388, -8.6716"
+  },
+  {
+    "flightNumber": "GV4059",
+    "coordinates": "-6.8584, 1.5097"
+  },
+  {
+    "flightNumber": "BS7502",
+    "coordinates": "-9.9471, -5.925"
+  },
+  {
+    "flightNumber": "VQ6100",
+    "coordinates": "0.0133, -7.1458"
+  },
+  {
+    "flightNumber": "SN5889",
+    "coordinates": "9.2706, 1.8352"
+  },
+  {
+    "flightNumber": "LM0928",
+    "coordinates": "1.9537, -0.3773"
+  },
+  {
+    "flightNumber": "GR5465",
+    "coordinates": "4.6254, 3.2244"
+  },
+  {
+    "flightNumber": "MG9927",
+    "coordinates": "-5.6289, 6.6582"
+  },
+  {
+    "flightNumber": "QM5984",
+    "coordinates": "-5.0043, 9.9423"
+  },
+  {
+    "flightNumber": "KE0385",
+    "coordinates": "1.0603, 9.8366"
+  },
+  {
+    "flightNumber": "NR9612",
+    "coordinates": "-4.6995, -4.5671"
+  },
+  {
+    "flightNumber": "ZA1668",
+    "coordinates": "-2.722, 6.9812"
+  },
+  {
+    "flightNumber": "PQ9936",
+    "coordinates": "-9.2351, 4.8915"
+  },
+  {
+    "flightNumber": "OZ4900",
+    "coordinates": "-2.3088, 1.7566"
+  },
+  {
+    "flightNumber": "VH4499",
+    "coordinates": "-5.5812, 8.1851"
+  },
+  {
+    "flightNumber": "RP1455",
+    "coordinates": "8.4741, -4.5501"
+  },
+  {
+    "flightNumber": "OD2699",
+    "coordinates": "-9.5833, -7.9435"
+  },
+  {
+    "flightNumber": "FS9464",
+    "coordinates": "2.5031, -0.3096"
+  },
+  {
+    "flightNumber": "DR1987",
+    "coordinates": "-5.9995, -7.3584"
+  },
+  {
+    "flightNumber": "FZ7396",
+    "coordinates": "-5.52, 0.1084"
+  },
+  {
+    "flightNumber": "CY9783",
+    "coordinates": "3.6103, 1.0816"
+  },
+  {
+    "flightNumber": "CT0134",
+    "coordinates": "-6.3671, 8.1255"
+  },
+  {
+    "flightNumber": "IA5286",
+    "coordinates": "7.3867, 2.1359"
+  },
+  {
+    "flightNumber": "ZP1066",
+    "coordinates": "-8.5918, -6.427"
+  },
+  {
+    "flightNumber": "RW2527",
+    "coordinates": "-6.1855, 9.7374"
+  },
+  {
+    "flightNumber": "YG3182",
+    "coordinates": "-8.4479, 1.7698"
+  },
+  {
+    "flightNumber": "SG9890",
+    "coordinates": "-7.7305, -8.7259"
+  },
+  {
+    "flightNumber": "LC2161",
+    "coordinates": "-7.098, 2.9736"
+  },
+  {
+    "flightNumber": "GR2318",
+    "coordinates": "7.9477, 4.0842"
+  },
+  {
+    "flightNumber": "OI8500",
+    "coordinates": "5.1433, -6.9425"
+  },
+  {
+    "flightNumber": "BY0168",
+    "coordinates": "-8.0811, -3.0565"
+  },
+  {
+    "flightNumber": "RY3159",
+    "coordinates": "4.2864, 2.2267"
+  },
+  {
+    "flightNumber": "UF2961",
+    "coordinates": "1.6457, 2.2715"
+  },
+  {
+    "flightNumber": "QM9639",
+    "coordinates": "2.5577, 1.2082"
+  },
+  {
+    "flightNumber": "HN3287",
+    "coordinates": "-5.5729, 1.4498"
+  },
+  {
+    "flightNumber": "MI1505",
+    "coordinates": "0.9055, -6.2294"
+  },
+  {
+    "flightNumber": "LP8884",
+    "coordinates": "7.7909, 6.4727"
+  },
+  {
+    "flightNumber": "PH6607",
+    "coordinates": "1.3517, -3.6468"
+  },
+  {
+    "flightNumber": "MO7761",
+    "coordinates": "-4.018, -4.9107"
+  },
+  {
+    "flightNumber": "TH8087",
+    "coordinates": "-0.987, -6.3096"
+  },
+  {
+    "flightNumber": "JL2505",
+    "coordinates": "5.5655, -9.3027"
+  },
+  {
+    "flightNumber": "OO7362",
+    "coordinates": "0.9976, 4.739"
+  },
+  {
+    "flightNumber": "CJ2928",
+    "coordinates": "1.9858, 0.6696"
+  },
+  {
+    "flightNumber": "TK1267",
+    "coordinates": "4.8734, -0.898"
+  },
+  {
+    "flightNumber": "MO6975",
+    "coordinates": "5.1358, 3.2659"
+  },
+  {
+    "flightNumber": "VA1063",
+    "coordinates": "-2.0829, -6.0109"
+  },
+  {
+    "flightNumber": "YZ2431",
+    "coordinates": "8.5006, 2.3138"
+  },
+  {
+    "flightNumber": "CE3735",
+    "coordinates": "7.2803, 6.1557"
+  },
+  {
+    "flightNumber": "AS1643",
+    "coordinates": "7.9897, 7.6468"
+  },
+  {
+    "flightNumber": "JL4826",
+    "coordinates": "3.7079, 2.4773"
+  },
+  {
+    "flightNumber": "RA6549",
+    "coordinates": "9.4621, 6.4662"
+  },
+  {
+    "flightNumber": "QX7775",
+    "coordinates": "-0.899, 3.0837"
+  },
+  {
+    "flightNumber": "WW3107",
+    "coordinates": "4.9393, 7.1576"
+  },
+  {
+    "flightNumber": "EI0291",
+    "coordinates": "5.1262, 7.3469"
+  },
+  {
+    "flightNumber": "KB2663",
+    "coordinates": "-5.0904, -8.4956"
+  },
+  {
+    "flightNumber": "WO9778",
+    "coordinates": "-7.0926, -2.4022"
+  },
+  {
+    "flightNumber": "YR2364",
+    "coordinates": "-3.6341, 9.2243"
+  },
+  {
+    "flightNumber": "FL1307",
+    "coordinates": "6.4555, 4.7488"
+  },
+  {
+    "flightNumber": "DY5850",
+    "coordinates": "0.0865, -7.1893"
+  }
+]
