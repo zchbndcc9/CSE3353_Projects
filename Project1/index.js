@@ -42,10 +42,28 @@ console.log(closestPair_Brute(json));
  loops have completed, the smallest possible distance will have been calculated.
 
  The time complexity of this exhaustive method is */
+const swap = function(arr, i, j) {
+    let temp = arr[j];
+    arr[j] = arr[i];
+    arr[i] = temp;
+}
 
+const quickSort = (array, fxn) => {
+    
+    
+}
 
+const partition = function(arr, i, j, fxn) {
+    let mid = (i + j)/2;
+
+    
+
+}
  const closestPair_dc = planes => {
-    //----divide
+    //Sort array according to y
+    quicksort(planes, (left, right) => {
+        return (left[y] > right[y]) ? true : false;
+    })
     //
     
     //conquer
