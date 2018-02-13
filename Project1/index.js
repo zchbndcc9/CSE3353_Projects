@@ -48,15 +48,30 @@ const swap = function(arr, i, j) {
     arr[i] = temp;
 }
 
-const quickSort = (array, fxn) => {
-    
-    
+const quickSort = function(arr, low, high, fxn) {
+    if (low > high)
+        return;
+
+    let part = partition(arr, low, high, fxn);
+    quickSort(arr, low, part, fxn);
+    quickSort(arr, part + 1, high, fxn);
 }
 
-const partition = function(arr, i, j, fxn) {
-    let mid = (i + j)/2;
+const partition = function(arr, low, high, fxn) {
+    //Instatiate pivot value
+    swap(arr, low, (low + high)/2);
 
-    
+    let pivot, left;
+    pivot = arr[low];
+    left = low;
+
+    for(let i = 1; i < high; i++) {
+        if(arr[i] < pivot) {
+            swap(arr, i, left++);
+        }
+    }
+    swap(arr, low, left);
+    return left;
 
 }
  const closestPair_dc = planes => {
@@ -64,7 +79,5 @@ const partition = function(arr, i, j, fxn) {
     quicksort(planes, (left, right) => {
         return (left[y] > right[y]) ? true : false;
     })
-    //
-    
     //conquer
  }
