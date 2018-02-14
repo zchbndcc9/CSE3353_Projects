@@ -42,22 +42,23 @@ console.log(closestPair_Brute(json));
  loops have completed, the smallest possible distance will have been calculated.
 
  The time complexity of this exhaustive method is */
+
 const swap = function(arr, i, j) {
     let temp = arr[j];
     arr[j] = arr[i];
     arr[i] = temp;
 }
 
-const quickSort = function(arr, low, high, fxn) {
+const _quickSort = function(arr, low, high, compareFxn) {
     if (low > high)
         return;
 
-    let part = partition(arr, low, high, fxn);
-    quickSort(arr, low, part, fxn);
-    quickSort(arr, part + 1, high, fxn);
+    let part = _partition(arr, low, high, compareFxn);
+    _quickSort(arr, low, part, compareFxn);
+    _quickSort(arr, part + 1, high, compareFxn);
 }
 
-const partition = function(arr, low, high, fxn) {
+const _partition = function(arr, low, high, compareFxn) {
     //Instatiate pivot value
     swap(arr, low, (low + high)/2);
 
@@ -66,18 +67,23 @@ const partition = function(arr, low, high, fxn) {
     left = low;
 
     for(let i = 1; i < high; i++) {
-        if(arr[i] < pivot) {
+        if(compareFxn(arr[i], pivot)) {
             swap(arr, i, left++);
         }
     }
     swap(arr, low, left);
     return left;
-
 }
+
+const quickSort = (arr, compareFxn = (left, right) => { return left < right }) => {
+    return _quickSort(arr, 0, arr.length, compareFxn);
+}
+
  const closestPair_dc = planes => {
     //Sort array according to y
-    quicksort(planes, (left, right) => {
-        return (left[y] > right[y]) ? true : false;
-    })
+    quicksort(planes, (left, right) => {return left[y] > right[y]});
+    console.log(planes);
     //conquer
  }
+
+closestPair_dc();
