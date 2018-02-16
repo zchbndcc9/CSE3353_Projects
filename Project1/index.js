@@ -25,15 +25,10 @@ const closestPair_Brute = planes => {
     }
     return closestPair;
 }
-
-//console.log(closestPair_Brute(json));
-
-// {
-//     value: 0.35113639799940993,
-//     pair:
-//     [{ flightNumber: 'YK2641', x: 0.5317, y: 0.9598 }, 
-//      { flightNumber: 'VB8856', x: 0.8223, y: 0.7627 }]
-// }
+console.time('closestPair_Brute');
+let result = closestPair_Brute(json);
+console.timeEnd('closestPair_Brute');
+console.log(result);
 
  /* This works as an exhaustive method to find the shortest distance between two
  points using an adapted form of the Pathagorean Theorem. This function
@@ -79,11 +74,32 @@ const quickSort = (arr, compareFxn = (left, right) => left > right) => {
     return _quickSort(arr, 0, arr.length - 1, compareFxn);
 }
 
- const closestPair_dc = planes => {
+const closestPair_Ysort = planes => {
     //Sort array according to y
     quickSort(planes, (left, right) => left.y > right.y);
-    console.log(planes);
-    //conquer
- }
 
-closestPair_dc(json);
+    //Instantiate smallest size
+    let closestPair = {
+        value: Number.MAX_SAFE_INTEGER,
+        pair: []
+    }
+
+    //Loop through all elements to find closest pair
+    for (let i = 0; i < planes.length; i++) { //n
+        let curPoint = planes[i].y;
+        for (let j = i + 1; j < planes.length && planes[j].y - curPoint < closestPair.value; j++) { //(n - 1) + (n - 2) + ... + 2 + 1 => n
+            let pathag = calculatePathag(planes[i], planes[j]); //n
+            if (pathag < closestPair.value) {
+                closestPair.value = pathag;
+                closestPair.pair = [planes[i], planes[j]];
+            }
+        }
+    }
+    return closestPair;
+}
+
+console.time('closestPair_Ysort');
+result = closestPair_Ysort(json);
+console.timeEnd('closestPair_Ysort');
+console.log(result);
+
