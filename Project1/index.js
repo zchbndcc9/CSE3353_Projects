@@ -26,7 +26,7 @@ const closestPair_Brute = planes => {
     return closestPair;
 }
 
-console.log(closestPair_Brute(json));
+//console.log(closestPair_Brute(json));
 
 // {
 //     value: 0.35113639799940993,
@@ -54,36 +54,36 @@ const _quickSort = function(arr, low, high, compareFxn) {
         return;
 
     let part = _partition(arr, low, high, compareFxn);
-    _quickSort(arr, low, part, compareFxn);
+    _quickSort(arr, low, part - 1, compareFxn);
     _quickSort(arr, part + 1, high, compareFxn);
 }
 
 const _partition = function(arr, low, high, compareFxn) {
     //Instatiate pivot value
-    swap(arr, low, (low + high)/2);
+    swap(arr, Math.floor((low + high)/2), high);
 
     let pivot, left;
-    pivot = arr[low];
+    pivot = arr[high];
     left = low;
 
-    for(let i = 1; i < high; i++) {
-        if(compareFxn(arr[i], pivot)) {
+    for(let i = low; i < high; i++) {
+        if(compareFxn(pivot, arr[i])) { //left[y] > right[y]
             swap(arr, i, left++);
         }
     }
-    swap(arr, low, left);
+    swap(arr, high, left);
     return left;
 }
 
-const quickSort = (arr, compareFxn = (left, right) => { return left < right }) => {
-    return _quickSort(arr, 0, arr.length, compareFxn);
+const quickSort = (arr, compareFxn = (left, right) => left > right) => {
+    return _quickSort(arr, 0, arr.length - 1, compareFxn);
 }
 
  const closestPair_dc = planes => {
     //Sort array according to y
-    quicksort(planes, (left, right) => {return left[y] > right[y]});
+    quickSort(planes, (left, right) => left.y > right.y);
     console.log(planes);
     //conquer
  }
 
-closestPair_dc();
+closestPair_dc(json);
