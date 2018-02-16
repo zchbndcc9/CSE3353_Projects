@@ -10,7 +10,8 @@ var chance = new Chance();
 const options = {
     min: -10,
     max: 10,
-    fixed: 4
+    fixed: 4,
+    flights: 100000
 }
 
 chance.mixin({
@@ -26,7 +27,7 @@ chance.mixin({
 })
 
 let flights = []
-for(let i = 0; i < 100; i++){
+for(let i = 0; i < options.flights; i++){
     //Name
     flights.push(chance.flight());
 }
