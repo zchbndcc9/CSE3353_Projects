@@ -1,7 +1,10 @@
-const quickSort = (arr, compareFxn = (left, right) => left > right) => {
+var quickSort {
+    quickSort: function(arr, compareFxn = (left, right) => left > right) => {
         return _quickSort(arr, 0, arr.length - 1, compareFxn);
-}
+    },
+    
 
+}
 const _quickSort = (arr, low, high, compareFxn) => {
     if (low > high)
         return;
@@ -28,3 +31,5 @@ const _partition = (arr, low, high, compareFxn) => {
     swap(arr, high, left);
     return left;
 }
+
+exports.data = quickSort;
