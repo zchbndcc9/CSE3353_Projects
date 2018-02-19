@@ -4,7 +4,7 @@
   "description": "Use Closest Pair Problem in order to alert planes if they are on a collision course along a horizontal plane.",
   "main": "index.js",
   "scripts": {
-    "initialize": "node initialize_json.js",
+    "start": "node index.js",
     "test": "echo 'No test specified.'"
   },
   "repository": {
