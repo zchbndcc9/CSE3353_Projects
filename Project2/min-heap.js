@@ -1,4 +1,4 @@
-module.exports.heapify = function(data) {
+function heapify(data) {
 
     bubbleup = () => {
         for(let i = self.heap.length; i >= 0; i --) {
@@ -41,8 +41,9 @@ module.exports.heapify = function(data) {
         }
         swap(0, self.heap.length - 1);
         let result = self.heap.pop();
+        bubbledown(0);
         return result;
-    }
+    };
 
     insert = member => {
         self.heap.push(member);
@@ -59,3 +60,5 @@ module.exports.heapify = function(data) {
 
     return self;
 }
+
+module.exports = heapify;
