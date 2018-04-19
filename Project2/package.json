@@ -2,13 +2,15 @@
   "name": "project2",
   "version": "1.0.0",
   "description": "Package from Project 2",
-  "main": "data-generation.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "encode": "node encode ./poop.txt",
+    "decode": "node decode ./encoded.txt ./result.txt"
   },
   "author": "Zachary Banducci",
   "license": "ISC",
   "dependencies": {
+    "assert": "^1.4.1",
     "chance": "^1.0.13",
     "fs": "0.0.1-security"
   }

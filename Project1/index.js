@@ -47,7 +47,7 @@ const bruteSort = (planes, low = 0, high = planes.length) => {
 };
 
 console.time('Brute Sort');
-let result = bruteSort(json);
+//let result = bruteSort(json);
 console.timeEnd('Brute Sort');
 
  /* This works as an exhaustive method to find the shortest distance between two
@@ -89,7 +89,7 @@ const _ySort = (planes, low = 0, high = planes.length) => {
 };
 
 console.time('Pre Sorting Y');
-result = ySort(json);
+let result = ySort(json);
 console.timeEnd('Pre Sorting Y');
 
 /*
