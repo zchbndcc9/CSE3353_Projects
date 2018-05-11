@@ -4,11 +4,11 @@ This library is used for performing image manipulation at the pixel level.
 
 # Functions
 
-- [Grayscale](#Grayscale)
+- [Grayscale](#grayscale)
 
-- [Convolution](#Convolution)
+- [Convolution](#convolution-sharpen-and-blur)
 
-- [Connected Components](#Connected_Components)
+- [Connected Components](#connected-components)
 
 ## Grayscale
 
