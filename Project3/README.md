@@ -13,5 +13,3 @@
 - Graph: `node index.js graph`
 
 ## All resulting images will be stored in the Images directory
-
-
